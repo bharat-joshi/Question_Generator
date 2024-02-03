@@ -38,7 +38,7 @@ const app = () => {
   }]
 
   return (
-    <div className="flex flex-row justify-between pt-10 px-10">
+    <div className="flex flex-row justify-around pt-10 px-10">
       <div>
         <Tabs defaultValue="Text" className="w-[400px]">
           <TabsList className="w-[400px] justify-around">
