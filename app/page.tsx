@@ -6,36 +6,39 @@ import { Textarea } from "@/components/ui/textarea"
 import QuestionViewer from "./Question-viewer/page"
 
 
-
 const app = () => {
 
   const questionJson =
-  [{
-    "question": "What is the capital of France?",
-    "options": [
-      {"option": "A", "text": "Berlin"},
-      {"option": "B", "text": "Madrid"},
-      {"option": "C", "text": "Paris"},
-      {"option": "D", "text": "Rome"}
-    ]
-  },{
-    "question": "What is the capital of dubai?",
-    "options": [
-      {"option": "A", "text": "Berlin"},
-      {"option": "B", "text": "Madrid"},
-      {"option": "C", "text": "Paris"},
-      {"option": "D", "text": "Rome"}
-    ]
-  },
-  {
-    "question": "What is the capital of india?",
-    "options": [
-      {"option": "A", "text": "delhi"},
-      {"option": "B", "text": "Madrid"},
-      {"option": "C", "text": "Paris"},
-      {"option": "D", "text": "Rome"}
-    ]
-  }]
+    [{
+      "id": "1",
+      "question": "What is the capital of France?",
+      "options": [
+        { "option": "A", "text": "Berlin" },
+        { "option": "B", "text": "Madrid" },
+        { "option": "C", "text": "Paris" },
+        { "option": "D", "text": "Rome" }
+      ]
+    }, {
+      "id": "2",
+      "question": "What is the capital of dubai?",
+      "options": [
+        { "option": "A", "text": "Berlin" },
+        { "option": "B", "text": "Madrid" },
+        { "option": "C", "text": "Paris" },
+        { "option": "D", "text": "Rome" }
+      ]
+    },
+    {
+
+      "id": "3",
+      "question": "What is the capital of india?",
+      "options": [
+        { "option": "A", "text": "delhi" },
+        { "option": "B", "text": "Madrid" },
+        { "option": "C", "text": "Paris" },
+        { "option": "D", "text": "Rome" }
+      ]
+    }]
 
   return (
     <div className="flex flex-row justify-around pt-10 px-10">
